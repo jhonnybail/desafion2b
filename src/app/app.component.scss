@@ -1,0 +1,17 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/fontawesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/solid.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/brands.min.css);
+@import url(//fonts.googleapis.com/css?family=Titillium+Web&subset=latin,latin-ext);
+
+body {
+    font-family: 'Titillium Web', sans-serif; 
+}
+
+.kpx_btn-google-plus {background: #c32f10; -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+         transition: all 0.5s ease-in-out;
+         color: #fff;}
+.kpx_btn-google-plus:hover {background: #6b1301; color: #fff;}
+.kpx_btn-google-plus:focus {background: #fff; color: #c32f10; border-color: #c32f10}
+.kpx_btn-google-plus span {font-size: 30px;}

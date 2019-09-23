@@ -1,0 +1,27 @@
+
+<div class="container">
+  
+    <div class="row">
+      <div class="col-9 col-sm-6">
+          <h3>{{title}}</h3>
+      </div>
+      <div class="col-3 col-sm-6" *ngIf="editArea">
+          <button (click)="add()" class="btn btn-info float-right"><i class="fas fa-plus"></i> Publicar</button>
+      </div>
+    </div>
+    <hr />
+  
+    <div class="alert alert-secondary" *ngIf="isLoading" style="text-align: center">
+        <i class="fas fa-circle-notch fa-spin"></i>
+    </div>
+
+    <div class="card col-12" *ngFor="let post of posts" style="margin-bottom: 20px;">
+      <img [src]="post.capa" *ngIf="post.capa" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{post.titulo}}</h5>
+        <p class="card-text">{{post.texto}}</p>
+        <button (click)="edit(post)" class="card-link btn btn-link" [disabled]="post.disabled" *ngIf="editArea"><i class="fas fa-pencil-alt"></i> Editar</button>
+        <button (click)="remove(post)" class="card-link btn btn-link" [disabled]="post.disabled" *ngIf="editArea"><i class="fas fa-trash"></i> Remover</button>
+      <hr />
+    </div>
+</div>
