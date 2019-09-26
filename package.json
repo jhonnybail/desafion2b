@@ -27,7 +27,8 @@
     "ngx-toastr": "^10.2.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "intl": "^1.2.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.5",
@@ -42,6 +43,7 @@
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
     "karma-chrome-launcher": "~2.2.0",
+    "karma-phantomjs-launcher": "^1.0.4",
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
