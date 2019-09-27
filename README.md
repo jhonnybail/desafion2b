@@ -8,4 +8,22 @@ Projeto foi contruído utilizando as seguintes ferramentas:
 - Firebase Authentication
 - Cloudinary
 
+## Docker
+Há possibilidade de trabalhar com o desenvolvimento em Docker.
+
+- Executar
+```
+docker-compose run --service-ports front
+```
+
+- Testar
+```
+docker-compose run --service-ports test
+```
+
+- Build
+```
+docker-compose run build
+```
+
 ### Acesse [Demo](https://jhonnybail.github.io/desafion2b/) para visualizar o projeto rodando.

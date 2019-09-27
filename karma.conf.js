@@ -22,14 +22,14 @@ module.exports = function (config) {
       fixWebpackSourcePaths: true
     },
     reporters: ['progress', 'kjhtml'],
-    port: 8081,
+    port: 8082,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
     browsers: ['PhantomJS'],
     captureTimeout: 6000000,
     browserNoActivityTimeout: 6000000,
-    singleRun: true,
+    singleRun: false,
     restartOnFileChange: false
   });
 };
